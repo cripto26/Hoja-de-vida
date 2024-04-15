@@ -37,7 +37,7 @@ export default function Part2() {
           textd="The Systems Engineering program focuses on researching and applying knowledge to develop innovative solutions in physical and abstract systems. Students acquire skills in areas such as software development and systems management, preparing them to face today's technological challenges."
           fecha="October 2022 - December 2022
           "/>
-        "       </div>
+              </div>
 
         <div className="flex justify-center items-center">
         <Text1 texta="Portfolio"
