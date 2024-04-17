@@ -13,7 +13,7 @@ export default function Part1() {
     <div className=" border flex items-center flex-col justify-center max-w-[400px]">
         <div>
 
-    <div className="ml-10 w-full flex items-center flex-col justify-center border ">
+    <div className="ml-10 flex items-center flex-col justify-center border w-[300px]">
         <div className="flex justify-center items-center">
             <Minifoto/>
         </div>
