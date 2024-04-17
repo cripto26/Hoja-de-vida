@@ -4,11 +4,11 @@ import Barraporcentaje from "../atoms/barraporcentaje";
 
 export default function ProgramminL() {
     return (
-      <div className="w-[300px]">
+      <div className="w-[300px] ">
        <div className="w-full">
       <Title text="Programming Languages"/>
         </div>
-       <div className=" w-full">
+       <div className=" w-[300px]">
       <Barraporcentaje label="HTML" porcentage={80}/>
       <Barraporcentaje label="Python" porcentage={80}/>
       <Barraporcentaje label="CSS" porcentage={80}/>

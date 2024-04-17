@@ -2,6 +2,7 @@ import Minifoto from "../atoms/MiniFoto";
 import Languages from "../molecules/Languages";
 import ProgramminL from "../molecules/ProgrammingLanguages";
 import Extraskills from "../molecules/Extraskills";
+import Informacion from "../atoms/informacion";
 
 
 export default function Part1() {
@@ -15,6 +16,9 @@ export default function Part1() {
     <div className="ml-10 w-full flex items-center flex-col justify-center border ">
         <div className="flex justify-center items-center">
             <Minifoto/>
+        </div>
+        <div className="my-10 w-[300px]"> 
+            <Informacion/>
         </div>
         <div className=" mt-10">
             <Languages/>
