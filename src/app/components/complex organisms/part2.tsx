@@ -10,13 +10,13 @@ export default function Part2() {
   return (
    
 
-    <div className="  w-auto h-auto justify-center items-center ml-40 mr-40  flex flex-col ">
+    <div className="  w-auto h-auto justify-center items-center   flex flex-col ">
       <div>
         <Mainprincipal />
       </div>
       <div className="flex justify-center items-center">
         <Text1 texta="My Knowledge"
-          textb="This section shows the knowledge and skills that I have learned throughout my university training, as well as knowledge obtained through work experience." />
+          textb="These are some of the areas in which I have worked and in which I can contribute to generate value." />
       </div>
 
       <div className="flex justify-center items-center">
@@ -24,7 +24,7 @@ export default function Part2() {
       </div>
       <div className="flex  justify-center items-center">
         <Text1 texta="Education"
-          textb="This section shows the knowledge and skills that I have learned throughout my university training, as well as knowledge obtained through work experience." />
+          textb="Some of the studies I have carried out throughout my life, some completed and others in a state of activity" />
       </div>
 
       <div className="flex  justify-center items-center flex-col">  

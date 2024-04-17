@@ -3,7 +3,7 @@ import Link from "../atoms/link";
 export default function Links() {
 
     return (
-        <div className="flex flex-col justify-center items-center  w-auto h-auto">
+        <div className="flex flex-col justify-center items-center  w-auto h-auto wl-10">
             
             <div className="flex mb-5 ">
                 

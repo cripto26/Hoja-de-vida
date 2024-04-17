@@ -9,7 +9,7 @@ export default function Part1() {
   const photoURL = "/foto1.png"
 
   return (
-    <div className=" border flex items-center flex-col justify-center">
+    <div className=" border flex items-center flex-col justify-center max-w-[400px]">
         <div>
 
     <div className="ml-10 w-full flex items-center flex-col justify-center border ">

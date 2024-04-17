@@ -1,15 +1,17 @@
-    export default function Foto() {
-    
-        const photoURL = "/foto.png"
-    
-        return (
-            <div className="w-[325px] h-[460px]">
+import Image from 'next/image';
 
-            <img
-            src={photoURL}
-            alt="Hamilton Daniel Quiroz Garces"
-            className="w-[325px] h-[460px] " 
-            />
-            </div>
-            );
-        }
+export default function Foto() {
+  const photoURL = "/foto.png";
+
+  return (
+    <div className="relative w-[325px] h-[460px]">
+      <Image
+        src={photoURL}
+        alt="Hamilton Daniel Quiroz Garces"
+        layout="fill" // Utiliza las dimensiones del elemento padre
+        objectFit="cover" // Esto asegurará que la imagen cubra completamente el div y se escale adecuadamente
+        // Si tienes dimensiones estáticas, es mejor usarlas directamente en lugar de layout='fill'
+      />
+    </div>
+  );
+}

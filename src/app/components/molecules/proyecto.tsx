@@ -12,8 +12,8 @@ export default function Proyecto({ nombre, titulo, text, link }: { nombre: strin
             <div className="mt-5 ">
                 <Title text={titulo} />
             </div>
-            <div className="flex mt-5 w-auto   ">
-                <Subtitle subtitle={text} classextra="" />
+            <div className="flex mt-5 w-auto justify-center items-center max-w-[350px] ">
+                <Subtitle subtitle={text} classextra=" text-center" />
             </div>
             <div>
                 <p className="text-blue-500">
