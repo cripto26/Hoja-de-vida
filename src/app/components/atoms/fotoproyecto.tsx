@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Fotoproyecto({ nombre }: { nombre: string }) {
   return (
-    <div className=" relative">
+    <div >
       <Image
         src={nombre}
         alt="proyecto"
