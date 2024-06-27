@@ -4,12 +4,12 @@ export default function Portafolio () {
     return(
         <div className="flex flex-col sm:flex-row">
             <div className="mx-10">
-            <Proyecto nombre="/avion.png" titulo="Prediccion precio del ticket de avion" link="https://github.com/cripto26/Modelos-1"
-            text="This project uses machine learning methods to predict airline ticket prices with an accuracy of 97.5%. It is designed to help people plan their trips with better cost estimation."/>
+            <Proyecto nombre="/avion.png" titulo="Prediccion precio del ticket de avion" link="https://github.com/cripto26/Prediccion_precio_de_ticket_de_avion"
+            text="Este proyecto utiliza métodos de aprendizaje automático para predecir el precio de un ticket de avión con una precisión del 97,5%. Está diseñado para ayudar a las personas a planificar sus viajes con una mejor estimación de costos."/>
 
             </div>
             <div className="mx-10">
-                <Proyecto nombre="/webshop.png" titulo="Web Shop" text="The project covers both frontend development in React and backend development in Spring Boot. It allows users to explore products, get detailed information, add items to a shopping cart and contact advisors directly via WhatsApp." link="https://github.com/Veritax0/WebShopEmpresarial"/>
+                <Proyecto nombre="/webshop.png" titulo="Web Shop" text="El proyecto cubre tanto el desarrollo frontend en React como el desarrollo backend en Spring Boot. Permite a los usuarios explorar productos, obtener información detallada, agregar artículos a un carrito de compras y contactar asesores directamente a través de WhatsApp." link="https://github.com/Veritax0/WebShopEmpresarial"/>
             </div>
             
 

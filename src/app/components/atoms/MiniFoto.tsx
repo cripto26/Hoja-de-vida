@@ -6,7 +6,7 @@ export default function Minifoto() {
   const photoURL = "/foto1.png"
 
   return (
-    <div className="bg flex flex-col justify-center items-center">
+    <div className=" flex flex-col justify-center items-center">
       <div className="rounded-full w-32 h-32 relative">
         <Image
           src={photoURL}
@@ -20,7 +20,7 @@ export default function Minifoto() {
         <Title text="Hamilton Daniel Quiroz Garces" />
       </div>
       <div className="flex mt-5">
-        <Subtitle classextra="text-center" subtitle="Junior (Frontend developer, UI designer, Data analyst, Data scientist)" />
+        <Subtitle classextra="text-center" subtitle="Desarrollador Web, UI designer, Estudiante de Data analyst" />
       </div>
     </div>
   );

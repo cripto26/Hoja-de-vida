@@ -4,7 +4,7 @@ export default function Foto() {
   const photoURL = "/foto.png";
 
   return (
-    <div className="relative w-[325px] h-[460px]">
+    <div className="relative w-[296px] h-[404px]">
       <Image
         src={photoURL}
         alt="Hamilton Daniel Quiroz Garces"

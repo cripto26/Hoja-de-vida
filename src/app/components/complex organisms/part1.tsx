@@ -10,10 +10,10 @@ export default function Part1() {
   const photoURL = "/foto1.png"
 
   return (
-    <div className=" border flex items-center flex-col justify-center max-w-[400px]">
+    <div className="  flex items-center flex-col justify-center max-w-[400px]">
         <div>
 
-    <div className="ml-10 flex items-center flex-col justify-center border w-[300px]">
+    <div className="ml-10 flex items-center flex-col justify-center  w-[300px]">
         <div className="flex justify-center items-center">
             <Minifoto/>
         </div>

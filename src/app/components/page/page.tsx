@@ -4,7 +4,7 @@ import Links from "../molecules/links";
 
 export default function Page() {
     return (
-        <div className="flex flex-col sm:flex-row  w-screen justify-center   ">
+        <div className="flex flex-col sm:flex-row  w-screen justify-center bg-white  ">
             <div className=" max-w-[450px]"  >
                 <Part1/>
             </div>
