@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Button = () => {
-  const whatsappURL = "https://wa.me/573137266912?text=Hola,%20estoy%20interesado%20en%20sus%20productos.";
+  const whatsappURL = "https://wa.me/573137266912?.";
 
   const handleClick = () => {
     window.open(whatsappURL, '_blank', 'noopener,noreferrer');
